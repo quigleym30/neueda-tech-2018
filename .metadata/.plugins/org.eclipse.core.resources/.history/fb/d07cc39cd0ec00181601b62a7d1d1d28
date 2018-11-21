@@ -1,0 +1,7 @@
+
+public class Toys {
+	
+	private String charName;
+	private String fName;
+	private String lName;
+}

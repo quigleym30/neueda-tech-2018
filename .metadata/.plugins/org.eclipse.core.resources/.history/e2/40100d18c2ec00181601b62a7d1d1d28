@@ -1,0 +1,47 @@
+
+public class Main {
+
+	public static void main (String[] args)  {
+		// TODO Auto-generated method stub
+		
+		Dwarf sleepy= new Dwarf();
+		sleepy.setName("Sleepy");
+		sleepy.setAutthor("Disney");
+		sleepy.setImage("sleepy.png");
+		
+		Dwarf happy= new Dwarf();
+		happy.setName("Happy");
+		happy.setAutthor("Disney");
+		happy.setImage("happy.png");
+		
+		Dwarf dopey= new Dwarf();
+		dopey.setName("Dopey");
+		dopey.setAutthor("Disney");
+		dopey.setImage("dopey.png");
+		
+		Dwarf bashful= new Dwarf();
+		bashful.setName("Bashful");
+		bashful.setAutthor("Disney");
+		bashful.setImage("bashful.png");
+		
+		Dwarf sneezy= new Dwarf();
+		sneezy.setName("Sneezy");
+		sneezy.setAutthor("Disney");
+		sneezy.setImage("sneezy.png");
+		
+		Dwarf doc= new Dwarf();
+		doc.setName("Doc");
+		doc.setAutthor("Disney");
+		doc.setImage("doc.png");
+		
+		Dwarf grumpy= new Dwarf();
+		grumpy.setName("Grumpy");
+		grumpy.setAutthor("Disney");
+		grumpy.setImage("grumpy.png");
+		
+		
+		//-------------------------------------
+		
+	}
+
+}
