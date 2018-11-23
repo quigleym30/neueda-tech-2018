@@ -1,6 +1,7 @@
 
 public class Dwarf {
 	// some comment
+	//second comment
 	private String name;
 	private String autthor;
 	private String image;
