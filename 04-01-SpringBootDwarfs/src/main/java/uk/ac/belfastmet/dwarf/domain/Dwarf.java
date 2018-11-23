@@ -1,5 +1,5 @@
 package uk.ac.belfastmet.dwarf.domain;
-
+//some thing
 public class Dwarf {
 
 	private String name;
