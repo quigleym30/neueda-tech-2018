@@ -1,6 +1,3 @@
-
-<!DOCTYPE html>
-
 <html lang="en" xmlns:th="http://thymeleaf.org">
 <head>
 	<title th:text=${pageTitle}></title>
@@ -18,32 +15,24 @@
 	<script src="script.js"></script>
 </head>
 <body>
-
 	<header class="jumbotron">
 		<h1 th:text="${pageTitle}">Dwarf Disney</h1>
-		<p th:text="${pageTitle}+ ' ' + dwarfs">This is the homepage for 7 dwarfs</p>
 	</header>
 
 	<nav th:replace="layouts/nav :: navFragment"></nav>
 	
-	<main class="container-fluid">
-		<div class="container">
-			<table class="table table-striped">
-				<thead>
-					<th>Name</th>
-					<th>Author</th>
-					<th>Image</th>
-				</thead>
-				<tbody>
-					<tr th:each="dwarf: ${Dwarfs}">
-						<td th:text = ${dwarf.name}></td>
-						<td th:text = ${dwarf.author}></td>
-						<td><img th:src=@{/res/}+${dwarf.image}></td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</main>
-	
+	<form action="/result.html">
+  type:<br>
+  <select>
+  <option value="volvo">dwarf_id</option>
+  <option value="saab">name</option>
+  <option value="opel">author</option>
+</select>
+  <br>
+  search:<br>
+  <input type="text" name="lastname" value="Mouse">
+  <br><br>
+  <input type="submit" value="Submit">
+</form> 
 </body>
 </html>

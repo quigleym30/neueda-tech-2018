@@ -51,4 +51,9 @@ public class Routing {
 		model.addAttribute("Dwarfs",this.dwarfRepository.findByAuthor("Tolkien"));
 		return "dwarf.html";
 	}
+	
+	@GetMapping("/search")
+	public String search(Model model) {
+		return "search.html";
+	}
 }
