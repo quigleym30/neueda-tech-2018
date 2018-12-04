@@ -8,4 +8,9 @@
 <fullyQualifiedTypeName name="uk.ac.belfastmet.building.domain.Volume"/>
 <fullyQualifiedTypeName name="uk.ac.belfastmet.building.domain.Footprint"/>
 <fullyQualifiedTypeName name="uk.ac.belfastmet.building.domain.FloorArea"/>
+<fullyQualifiedTypeName name="uk.ac.belfastmet.dwarf.domain.Dwarf"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="javax.persistence.Id"/>
+<fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+<fullyQualifiedTypeName name="uk.ac.belfastmet.dwarf.repository.DwarfRepository"/>
 </qualifiedTypeNameHistroy>

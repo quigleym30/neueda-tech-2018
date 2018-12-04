@@ -26,12 +26,40 @@
 
 	<nav th:replace="layouts/nav :: navFragment"></nav>
 
-	<main class="container-fluid">
+	<div class="container-fluid">
 		<div class="container">
 			<p>Disney Dwarfs</p>
 			<p>Tolkien Dwarves</p>
+		
+		
+		
+		<form action="/searchid" method="get">
+		<label>ID</label>
+		<input type="text" name="Id"/>
+		<input type="submit" value="Search"></input>
+		</form>
+		
+		<form action="/searchname" method="get">
+		<label>Name</label>
+		<input type="text" name="name"/>
+		<input type="submit" value="Search"></input>
+		</form>
+		
+		<form action="/searchauthor" method="get">
+		<label>Author</label>
+		<input type="text" name="author"/>
+		<input type="submit" value="Search"></input>
+		</form>
+		
+		<form action="/searchnameauthor" method="get">
+		<label>Name</label>
+		<input type="text" name="name"/>
+		<label>Author</label>
+		<input type="text" name="author"/>
+		<input type="submit" value="Search"></input>
+		</form>
 		</div>
-	</main>
+	</div>
 
 </body>
 </html>

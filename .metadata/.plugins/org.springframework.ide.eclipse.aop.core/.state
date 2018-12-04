@@ -3,6 +3,6 @@
 <aop-project name="05-01-Buildings"/>
 <aop-project name="05-01-Dwarfs-Saved"/>
 <aop-project name="03-03-SpringBootControllers"/>
-<aop-project name="04-01-SpringBootDwarfs"/>
 <aop-project name="02-01-space"/>
+<aop-project name="04-01-SpringBootDwarfs"/>
 </aop-reference-model>
