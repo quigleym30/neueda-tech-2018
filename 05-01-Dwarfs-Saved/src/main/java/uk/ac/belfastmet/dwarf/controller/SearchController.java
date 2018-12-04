@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import uk.ac.belfastmet.dwarf.domain.Dwarf;
+
 import uk.ac.belfastmet.dwarf.repository.DwarfRepository;
-import uk.ac.belfastmet.service.DwarfService;
+
 
 @Controller
 

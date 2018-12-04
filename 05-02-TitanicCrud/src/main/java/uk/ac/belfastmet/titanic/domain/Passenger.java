@@ -10,15 +10,15 @@ public class Passenger {
 	@Id
 	@GeneratedValue
 	private Integer passengerId;
-	
+
 	private String name,sex,ticket,cabin;
-	private char embarked;
+	private String embarked;
 	private Integer survived,pClass,age,sibSp,parch;
-	private double fare;
+	private Double fare;
 	public Passenger() {
 		super();
 	}
-	public Passenger(Integer passengerId, String name, String sex, String ticket, String cabin, char embarked,
+	public Passenger(Integer passengerId, String name, String sex, String ticket, String cabin, String embarked,
 			Integer survived, Integer pClass, Integer age, Integer sibSp, Integer parch, Double fare) {
 		super();
 		this.passengerId = passengerId;
@@ -64,10 +64,10 @@ public class Passenger {
 	public void setCabin(String cabin) {
 		this.cabin = cabin;
 	}
-	public char getEmbarked() {
+	public String getEmbarked() {
 		return embarked;
 	}
-	public void setEmbarked(char embarked) {
+	public void setEmbarked(String embarked) {
 		this.embarked = embarked;
 	}
 	public Integer getSurvived() {
