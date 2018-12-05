@@ -13,7 +13,7 @@ public interface PassengersRepository extends CrudRepository<Passenger, Integer>
 
 	Iterable<Passenger> findByPClass(Integer pClass);
 
-	Iterable<Passenger> findByName(String name);
+	Iterable<Passenger> findByNameContaining(String name);
 
 	Iterable<Passenger> findBySex(String sex);
 
