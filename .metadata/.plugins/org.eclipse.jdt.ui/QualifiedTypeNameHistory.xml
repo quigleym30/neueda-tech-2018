@@ -9,8 +9,12 @@
 <fullyQualifiedTypeName name="uk.ac.belfastmet.building.domain.Footprint"/>
 <fullyQualifiedTypeName name="uk.ac.belfastmet.building.domain.FloorArea"/>
 <fullyQualifiedTypeName name="uk.ac.belfastmet.dwarf.domain.Dwarf"/>
-<fullyQualifiedTypeName name="javax.persistence.Entity"/>
 <fullyQualifiedTypeName name="javax.persistence.Id"/>
 <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
 <fullyQualifiedTypeName name="uk.ac.belfastmet.dwarf.repository.DwarfRepository"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestParam"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="uk.ac.belfastmet.titanic.domain.Passenger"/>
+<fullyQualifiedTypeName name="javax.persistence.Entity"/>
+<fullyQualifiedTypeName name="java.lang.Character"/>
 </qualifiedTypeNameHistroy>

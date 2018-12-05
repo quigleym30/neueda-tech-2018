@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
 <aop-project name="05-01-Buildings"/>
+<aop-project name="05-02-TitanicCrud"/>
 <aop-project name="05-01-Dwarfs-Saved"/>
 <aop-project name="03-03-SpringBootControllers"/>
 <aop-project name="02-01-space"/>
