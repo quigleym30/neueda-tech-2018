@@ -37,4 +37,65 @@ public class SearchController {
 		model.addAttribute("passengers", this.passengersRepository.findByPClass(pClass));
 		return "pass";
 	}
+	
+	@GetMapping("/searchname")
+	public String Searchname(@RequestParam("name") String name, Model model) {
+		model.addAttribute("pageTitle","Search");
+		model.addAttribute("passengers", this.passengersRepository.findByName(name));
+		return "pass";
+	}
+	
+	@GetMapping("/searchsex")
+	public String Searchsex(@RequestParam("sex") String sex, Model model) {
+		model.addAttribute("pageTitle","Search");
+		model.addAttribute("passengers", this.passengersRepository.findBySex(sex));
+		return "pass";
+	}
+	
+	@GetMapping("/searchage")
+	public String Searchage(@RequestParam("age") Integer age, Model model) {
+		model.addAttribute("pageTitle","Search");
+		model.addAttribute("passengers", this.passengersRepository.findByAge(age));
+		return "pass";
+	}
+	
+	@GetMapping("/searchsibSp")
+	public String SearchsibSp(@RequestParam("sibSp") Integer sibSp, Model model) {
+		model.addAttribute("pageTitle","Search");
+		model.addAttribute("passengers", this.passengersRepository.findBySibSp(sibSp));
+		return "pass";
+	}
+	
+	@GetMapping("/searchparch")
+	public String Searchparch(@RequestParam("parch") Integer parch, Model model) {
+		model.addAttribute("pageTitle","Search");
+		model.addAttribute("passengers", this.passengersRepository.findByParch(parch));
+		return "pass";
+	}
+	@GetMapping("/searchticket")
+	public String Searchticket(@RequestParam("ticket") String ticket, Model model) {
+		model.addAttribute("pageTitle","Search");
+		model.addAttribute("passengers", this.passengersRepository.findByTicket(ticket));
+		return "pass";
+	}
+	@GetMapping("/searchfare")
+	public String Searchfare(@RequestParam("fare") Double fare, Model model) {
+		model.addAttribute("pageTitle","Search");
+		model.addAttribute("passengers", this.passengersRepository.findByFare(fare));
+		return "pass";
+	}
+	
+	@GetMapping("/searchcabin")
+	public String Searchcabin(@RequestParam("cabin") String cabin, Model model) {
+		model.addAttribute("pageTitle","Search");
+		model.addAttribute("passengers", this.passengersRepository.findByCabin(cabin));
+		return "pass";
+	}
+	
+	@GetMapping("/searchembarked")
+	public String Searchembarked(@RequestParam("embarked") String embarked, Model model) {
+		model.addAttribute("pageTitle","Search");
+		model.addAttribute("passengers", this.passengersRepository.findByembarked(embarked));
+		return "pass";
+	}
 }
