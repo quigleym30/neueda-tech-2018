@@ -11,7 +11,7 @@ public class Cereal {
 
 	@Id
 	@GeneratedValue(strategy= GenerationType.IDENTITY)
-	private Integer CerealId;
+	private Integer cerealId;
 	
 	private String manufacturer,cereal,sodium,salt,iron;
 	
@@ -27,7 +27,7 @@ public class Cereal {
 			Integer energy, Integer calories, Double protein, Double carbs, Double sugers, Double fats,
 			Double saturates, Double fibre) {
 		super();
-		CerealId = cerealId;
+		this.cerealId = cerealId;
 		this.manufacturer = manufacturer;
 		this.cereal = cereal;
 		this.sodium = sodium;
@@ -44,11 +44,11 @@ public class Cereal {
 	}
 
 	public Integer getCerealId() {
-		return CerealId;
+		return cerealId;
 	}
 
 	public void setCerealId(Integer cerealId) {
-		CerealId = cerealId;
+		this.cerealId = cerealId;
 	}
 
 	public String getManufacturer() {

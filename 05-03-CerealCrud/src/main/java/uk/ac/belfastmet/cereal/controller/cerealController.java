@@ -3,6 +3,7 @@ package uk.ac.belfastmet.cereal.controller;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import uk.ac.belfastmet.cereal.repositroies.CerealRepository;
@@ -39,5 +40,11 @@ public class cerealController {
 		model.addAttribute("pageTitle","Search");
 		model.addAttribute("Cereal", this.cerealRepository.findByCerealContaining(cereal));
 		return "cereal";
+	}
+	@GetMapping("/view/{cerealId}")
+	public String View(@PathVariable("cerealId")Integer cerealId, Model model) {
+		model.addAttribute("pageTitle","View");
+		model.addAttribute("cereal", this.cerealRepository.findByCerealId(cerealId));
+		return "viewCereal";
 	}
 }
