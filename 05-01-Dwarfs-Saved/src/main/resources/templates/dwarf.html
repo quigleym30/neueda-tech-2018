@@ -31,6 +31,7 @@
 	 </div>
 	<main class="container-fluid">
 		<div class="container">
+		<p><a href="#" th:href="@{/add}">Add Dwarf</a></p>
 			<table class="table table-striped">
 				<thead>
 					<th>Name</th>
@@ -43,12 +44,16 @@
 						<td th:text = ${dwarf.name}></td>
 						<td th:text = ${dwarf.author}></td>
 						<td><img th:src=@{/res/}+${dwarf.image}></td>
-						<td><a href="#" th:href="@{/view/} + ${dwarf.dwarfId}">View</a><br><a href="#" th:href="@{/delete/} + ${dwarf.dwarfId}">Delete</a></td>
+						<td><a href="#" th:href="@{/view/} + ${dwarf.dwarfId}">View</a>
+						<br><a href="#" th:href="@{/edit/} + ${dwarf.dwarfId}">Edit</a>
+						<br><a href="#" th:href="@{/delete/} + ${dwarf.dwarfId}">Delete</a></td>
 				
 					</tr>
 				</tbody>
 			</table>
+				<p><a href="#" th:href="@{/add}">Add Dwarf</a></p>
 		</div>
+	
 	</main>
 	
 </body>
