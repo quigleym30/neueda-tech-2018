@@ -6,5 +6,9 @@ import uk.ac.belfastmet.cereal.domain.Cereal;
 
 public interface CerealRepository extends CrudRepository<Cereal, Integer>{
 
+	Iterable<Cereal> findByManufacturerContaining(String manufacturer);
+
+	Iterable<Cereal> findByCerealContaining(String cereal);
+
 
 }
