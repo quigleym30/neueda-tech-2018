@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+	<title th:text=${pageTitle}></title>
+
+	<link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" integrity="sha256-HAaDW5o2+LelybUhfuk0Zh2Vdk8Y2W2UeKmbaXhalfA=" crossorigin="anonymous" >
+	<link href="http://fonts.googleapis.com/css?family=Monda|Orbitron|Homemade+Apple" rel="stylesheet">
+	<link rel="stylesheet/less" type="text/css" href="styles.less" >
+	
+	<script src="http://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="http://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.7.1/less.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</head>
+<body>
+
+	<header class="jumbotron">
+		<h1 th:text="${pageTitle}"></h1>
+	</header>
+
+	<nav th:replace="layouts/nav :: navFragment"></nav>
+	
+	<div class="alert alert-success" role="alert" th:if="${message}">
+	 <p th:text="${message}"></p>
+	 </div>
+	 
+	<main class="container-fluid">
+		<div class="container">
+		<p><a href="#" th:href="@{/add}">Add Cereal</a></p>
+			<table class="table table-striped">
+				<thead>
+					<th>Id</th>
+					<th>Manufacturer</th>
+					<th>Cereal</th>
+					<th>Sodium</th>
+					<th>Salt</th>
+					<th>Iron</th>
+					<th>Energy</th>
+					<th>Calories</th>
+					<th>Protein</th>
+					<th>Carbs</th>
+					<th>Sugers</th>
+					<th>Fats</th>
+					<th>Saturates</th>
+					<th>Fibre</th>
+					<th>CRUD</th>
+				</thead>
+				<tbody>
+					<tr th:each="cereal: ${Cereal}">
+						<td th:text = ${cereal.cerealId}></td>
+						<td th:text = ${cereal.manufacturer}></td>
+						<td th:text = ${cereal.cereal}></td>
+						<td th:text = ${cereal.sodium}></td>
+						<td th:text = ${cereal.salt}></td>
+						<td th:text = ${cereal.iron}></td>
+						<td th:text = ${cereal.energy}></td>
+						<td th:text = ${cereal.calories}></td>
+						<td th:text = ${cereal.protein}></td>
+						<td th:text = ${cereal.carbs}></td>
+						<td th:text = ${cereal.sugurs}></td>
+						<td th:text = ${cereal.fats}></td>
+						<td th:text = ${cereal.saturates}></td>
+						<td th:text = ${cereal.fibre}></td>
+						<td><a href="#" th:href="@{/view/} + ${cereal.cerealId}">View</a>
+						<br><a href="#" th:href="@{/edit/} + ${cereal.cerealId}">Edit</a>
+						<br><a href="#" th:href="@{/delete/} + ${cereal.cerealId}">Delete</a></td>
+					</tr>
+				</tbody>
+			</table>
+			<p><a href="#" th:href="@{/add}">Add cereal</a></p>
+		</div>
+	
+	</main>
+	
+</body>
+</html>

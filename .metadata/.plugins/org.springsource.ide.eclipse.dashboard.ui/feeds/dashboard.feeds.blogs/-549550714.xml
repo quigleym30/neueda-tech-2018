@@ -5,7 +5,33 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2018-12-05T11:58:00Z</updated>
+  <updated>2018-12-06T13:30:41Z</updated>
+  <entry>
+    <title>Spring IO Platform Cairo-SR6</title>
+    <link rel="alternate" href="https://spring.io/blog/2018/12/06/spring-io-platform-cairo-sr6" />
+    <category term="releases" label="Releases" />
+    <author>
+      <name>Andy Wilkinson</name>
+    </author>
+    <id>tag:spring.io,2018-12-06:3489</id>
+    <updated>2018-12-06T13:30:41Z</updated>
+    <content type="html">&lt;p&gt;I am pleased to announce that &lt;a href="https://spring.io/projects/platform"&gt;Spring IO Platform&lt;/a&gt; Cairo-SR6 is now available from both &lt;a href="https://repo.spring.io/release"&gt;repo.spring.io&lt;/a&gt; and Maven Central. &lt;/p&gt;
+&lt;p&gt;This maintenance release upgrades the versions of a number of the projects in the Platform:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Reactor Bismuth-SR14&lt;/li&gt;
+  &lt;li&gt;Spring AMQP 2.0.10&lt;/li&gt;
+  &lt;li&gt;Spring Boot 2.0.7&lt;/li&gt;
+  &lt;li&gt;Spring Cloud Connectors 2.0.4&lt;/li&gt;
+  &lt;li&gt;Spring Data Kay-SR12&lt;/li&gt;
+  &lt;li&gt;Spring Framework 5.0.11&lt;/li&gt;
+  &lt;li&gt;Spring Integration 5.0.10&lt;/li&gt;
+  &lt;li&gt;Spring Kafka 2.1.11&lt;/li&gt;
+  &lt;li&gt;Spring Security 5.0.10&lt;/li&gt;
+  &lt;li&gt;Spring Session Apple-SR7&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The versions of a number of third-party dependencies have also been updated.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://spring.io/projects/platform"&gt;Project Page&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform"&gt;GitHub&lt;/a&gt; | &lt;a href="https://github.com/spring-io/platform/issues"&gt;Issues&lt;/a&gt; | &lt;a href="http://docs.spring.io/platform/docs/Cairo-SR6/reference/htmlsingle"&gt;Documentation&lt;/a&gt;&lt;/p&gt;</content>
+  </entry>
   <entry>
     <title>Spring Tools 4.0.2 released</title>
     <link rel="alternate" href="https://spring.io/blog/2018/12/05/spring-tools-4-0-2-released" />
@@ -797,40 +823,5 @@ dependencies {&#xD;
 &lt;div class="paragraph"&gt;
 &lt;p&gt;We welcome your input, in a variety of forms. If you have questions about Spinnaker, ask on &lt;a href="https://stackoverflow.com/"&gt;Stack Overflow&lt;/a&gt; and use the &lt;code&gt;#spinnaker&lt;/code&gt; tag. In case of Cloud Pipelines, ask questions on GitHub. If you want to work on the code, we love pull requests. If you spot a problem, please submit an issue on Github.&lt;/p&gt;
 &lt;/div&gt;</content>
-  </entry>
-  <entry>
-    <title>This Week in Spring - November 13th, 2018</title>
-    <link rel="alternate" href="https://spring.io/blog/2018/11/13/this-week-in-spring-november-13th-2018" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Josh Long</name>
-    </author>
-    <id>tag:spring.io,2018-11-13:3469</id>
-    <updated>2018-11-13T16:06:29Z</updated>
-    <content type="html">&lt;p&gt;Hi Spring fans! Welcome to another installment of &lt;em&gt;This Week in Spring&lt;/em&gt;! I&amp;rsquo;ve just flown from Singapore and arrived in Hong Kong where I&amp;rsquo;ll be meeting with some of our bigger customers here for a few days. Then, it&amp;rsquo;s off to Taipei where, among other things, I&amp;rsquo;ll be presenting at the &lt;a href="https://www.facebook.com/groups/twjug/permalink/10161113950810013/"&gt;Taipei JUG&lt;/a&gt; and talking to some customers. If you&amp;rsquo;re in any of these places, don&amp;rsquo;t hesitate &lt;a href="http://twitter.com/Starbuxman"&gt;to reach out and say hi (@starbuxman)!&lt;/a&gt;&lt;/p&gt;
-&lt;img src = "https://pbs.twimg.com/media/Dr5QXEIVsAAu8SQ.jpg:large" /&gt;
-&lt;p&gt;With that, we&amp;rsquo;ve got a &lt;em&gt;ton&lt;/em&gt; to get to so let&amp;rsquo;s get to it! &lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Need 24x7 ETL? Then Move to &lt;a href="https://content.pivotal.io/blog/need-24x7-etl-then-move-to-cloud-native-file-ingest-with-spring-cloud-data-flow"&gt;Cloud Native File Ingest with Spring Cloud Data Flow&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://spring.io/blog/2018/11/08/spring-boot-in-a-container"&gt;Spring Boot in a Container&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;I love this list of &lt;a href="https://github.com/linux-china/awesome-rsocket/blob/master/README.md"&gt;resources related to RSocket from my friend Jacky at Alibaba&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Check out this new feature in Kotlin 1.3: &lt;a href="https://twitter.com/kotlin/status/1062040333779984384?s=12"&gt;enable progressive mode of the compiler (&lt;code&gt;-progressive&lt;/code&gt; option) for a fast-track way to get fixes for compiler issues that affect language semantics&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/java_hipster/status/1062282002144092160?s=12"&gt;JHipster v5.7.0 released!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The Spring Boot Admin&amp;rsquo;s &lt;a href="https://twitter.com/joshiste/status/1062088186887843840?s=12"&gt;Johannes Edmeier has just announced that Spring Boot Admin 2.1.1, with an important bugfix, has been released&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The Spring Cloud Greenwich release schedule has changed slightly. This week we will release M2, then RC1 will be Dec 6th, and finally RELEASE will be Dec 20th. As always, see the &lt;a href="https://twitter.com/springcloud/status/1062011214535016448?s=12"&gt;milestones in &lt;code&gt;spring-cloud-release&lt;/code&gt; for details&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;The Spring Cloud team&amp;rsquo;s Spencer Gibb has opened up some issues on Github that are ideal for first-time contributors &lt;a href="https://twitter.com/spencerbgibb/status/1062051741024174080?s=12"&gt;that are looking for an easy first contribution to Spring Cloud&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Atomist CEO and Spring founder &lt;a href="https://twitter.com/springrod/status/1062035749946544128?s=12"&gt;Rod Johnson says that software delivery needs a framework just as much as application development does. Check out his Spring One Platform 2018 presentation on Atomist&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Vojtech Ruzicka&amp;rsquo;s got a nice post, &lt;a href="https://www.vojtechruzicka.com/spring-boot-devtools/"&gt;&lt;em&gt;Faster Development with Spring Boot DevTools&lt;/em&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Check out the prototype Microsoft SQL Server R2DBC implementation! &lt;a href="https://twitter.com/r2dbc/status/1061287023619780608?s=12"&gt;Feel free to give it a try and of course feedback is welcome!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://twitter.com/SpringData/status/1061245482985492480"&gt;The ArangoDB team just released the next version of the ArangoDB Spring Data integration, at v3.2.0, and added the brand new Spring Boot starter for all Spring enthusiasts&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Boot ninja Madhura Bhave reminds us that the code for the Spring Initializr service has been moved to a separate &lt;code&gt;git&lt;/code&gt; repisitory. Ironically, they forgot to add a &lt;code&gt;.gitignore&lt;/code&gt; to that repository &lt;a href="https://twitter.com/madhurabhave23/status/1060830826961780737?s=12"&gt;which wouldn&amp;rsquo;t have happened if they&amp;rsquo;d generated it using the Spring Initializr!&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Interesting talk: &lt;a href="https://www.infoq.com/presentations/spring-iot-demo"&gt;Spring-driven industrial IoT utilizing edge, fog, and cloud computing&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Cloud Contract lead Marcin Grzejszczak has some good news: thanks to this &lt;a href="https://github.com/spring-cloud/spring-cloud-contract/pull/786"&gt;pull-request&lt;/a&gt;, they&amp;rsquo;re bringing back Apache Camel support to Spring Cloud Contract!&lt;/li&gt;
-  &lt;li&gt;This is an interesting graph of performance improvement for Lukas Krecan&amp;rsquo;s application &lt;a href="https://twitter.com/lukas_krecan/status/1058306354677538817?s=12"&gt;after migration from Spring Boot 2.0 on JDK 10 to Spring Boot 2.1 on JDK 11&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="https://speakerdeck.com/olivergierke/building-better-monoliths-modulithic-applications-with-spring-boot"&gt;Here are the slides to Spring Data lead Oliver Gierke&amp;rsquo;s talk at JAXcon 2018 on &amp;quot;building Better &lt;em&gt;Moduliths&lt;/em&gt; – modulithic applications with Spring Boot&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Check out &lt;a href="https://starkandwayne.com/blog/introduction-to-knative/"&gt;Dr. Nic&amp;rsquo;s series introducing all things KNative to help you explore serverless computing atop Kubernetes&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Spring Security lead &lt;a href="https://twitter.com/rob_winch/status/1059922370914406400?s=12"&gt;Rob Winch just added a &amp;ldquo;first-timers-only&amp;rdquo; issue to Spring Security&lt;/a&gt;. Ping them on the issue if you want to take it. They&amp;rsquo;re glad to help guide you through contributing to this issue.&lt;/li&gt;
-  &lt;li&gt;Sharad Gupta has a nice post &lt;a href="https://medium.com/@sharadg_49240/rabbitmq-publisher-confirms-and-returns-callback-with-without-mandatory-flag-9fce2265e32f"&gt;on RabbitMQ publisher confirms and returns callback with/without the &amp;ldquo;mandatory&amp;rdquo; flag&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content>
   </entry>
 </feed>
