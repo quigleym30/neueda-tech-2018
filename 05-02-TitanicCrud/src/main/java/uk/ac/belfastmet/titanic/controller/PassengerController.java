@@ -22,4 +22,6 @@ public class PassengerController {
 		model.addAttribute("passengers",this.passengersRepository.findAll());
 		return "pass";
 	}
+	
+	
 }

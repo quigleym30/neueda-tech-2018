@@ -29,6 +29,7 @@
 	 
 	<main class="container-fluid">
 		<div class="container">
+		<p><a href="#" th:href="@{/add}">Add Passenger</a></p>
 			<table class="table table-striped">
 				<thead>
 					<th>Id</th>
@@ -59,11 +60,15 @@
 						<td th:text = ${pass.fare}></td>
 						<td th:text = ${pass.cabin}></td>
 						<td th:text = ${pass.embarked}></td>
-						<td><a href="#" th:href="@{/view/} + ${pass.passengerId}">View</a><br><a href="#" th:href="@{/delete/} + ${pass.passengerId}">Delete</a></td>
+						<td><a href="#" th:href="@{/view/} + ${pass.passengerId}">View</a>
+						<br><a href="#" th:href="@{/edit/} + ${pass.passengerId}">Edit</a>
+						<br><a href="#" th:href="@{/delete/} + ${pass.passengerId}">Delete</a></td>
 					</tr>
 				</tbody>
 			</table>
+			<p><a href="#" th:href="@{/add}">Add Passenger</a></p>
 		</div>
+	
 	</main>
 	
 </body>
