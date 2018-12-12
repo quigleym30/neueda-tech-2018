@@ -48,8 +48,8 @@
 				<tbody>
 				<tr th:each="event: ${events}">	
 						<td th:text = "${event.title}">Title</td>
-						<td th:text = "${event.startDate}">Start Date</td>
-						<td th:text = "${event.endDate}">End Date</td>
+						<td th:text = "${#dates.format(event.startDate, 'dd/MM/yyyy')}">Start Date</td>
+						<td th:text = "${#dates.format(event.endDate, 'dd/MM/yyyy')}">End Date</td>
 						<td th:text = "${event.venue}">Venue</td>
 						<td th:text = "${event.cost}">Cost</td>
 						<td ><img src="" th:src = "${event.image}"/></td>
