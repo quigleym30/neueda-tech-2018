@@ -5929,3 +5929,48 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2018-12-12 09:54:38,846 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-12-12 09:54:38,846 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-01-SimpleWeatherAPI\src\test\resources
 2018-12-12 09:56:22,455 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-12-12 10:01:12,879 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 10:01:12,886 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-12 10:01:12,909 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 10:01:12,914 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 10:01:12,914 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-01-SimpleWeatherAPI\src\test\resources
+2018-12-12 10:02:26,444 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 10:02:26,452 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-12 10:02:26,455 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 10:02:26,458 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 10:02:26,459 [Worker-3: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-01-SimpleWeatherAPI\src\test\resources
+2018-12-12 10:09:27,620 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 10:09:27,624 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-12 10:09:27,627 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 10:09:27,631 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 10:09:27,631 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-01-SimpleWeatherAPI\src\test\resources
+2018-12-12 10:10:05,544 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 10:10:05,549 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 10:10:05,550 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-12 10:10:05,587 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 10:10:05,587 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-01-SimpleWeatherAPI\src\test\resources
+2018-12-12 10:10:14,881 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 10:10:14,883 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-12 10:10:14,888 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-12 10:10:14,896 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 10:10:14,896 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-01-SimpleWeatherAPI\src\test\resources
+2018-12-12 10:11:06,975 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 10:11:06,976 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-12 10:11:06,980 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-12 10:11:06,984 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 10:11:06,985 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-01-SimpleWeatherAPI\src\test\resources
+2018-12-12 10:11:28,343 [Worker-23: Launching 07-01-SimpleWeatherAPI - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 10:11:28,344 [Worker-23: Launching 07-01-SimpleWeatherAPI - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 10:11:28,345 [Worker-23: Launching 07-01-SimpleWeatherAPI - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-12 10:11:28,353 [Worker-23: Launching 07-01-SimpleWeatherAPI - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 10:11:28,354 [Worker-23: Launching 07-01-SimpleWeatherAPI - Application] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-01-SimpleWeatherAPI\src\test\resources
+2018-12-12 10:16:31,823 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 10:16:31,825 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-12 10:16:31,828 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-12 10:16:31,842 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 10:16:31,843 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-01-SimpleWeatherAPI\src\test\resources
+2018-12-12 10:18:58,668 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 10:18:58,669 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-12 10:18:58,672 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-12 10:18:58,675 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 10:18:58,676 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-01-SimpleWeatherAPI\src\test\resources

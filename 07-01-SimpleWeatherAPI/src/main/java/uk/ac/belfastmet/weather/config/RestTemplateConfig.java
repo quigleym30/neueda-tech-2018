@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 public class RestTemplateConfig {
 
 	@Bean
-	public RestTemplate restTemplate(RestTemplate builder) {
+	public RestTemplate restTemplate(RestTemplateBuilder builder) {
 		return builder.build();
 	}
 }
