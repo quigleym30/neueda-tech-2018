@@ -17,8 +17,9 @@ import uk.ac.belfastmet.weather.domian.TodaysWeather;
 public class WeatherController {
 
 	@GetMapping
-	public String home() {
-		return "home";
+	public String home(Model model) {
+		model.addAttribute("pageTitle","Home");
+		return "index";
 	}
 	@GetMapping("/weather/{location}")
 		public String weather(@PathVariable("location") String location,Model model) {
