@@ -8,7 +8,7 @@ import lombok.Data;
 public class TodaysWeather {
 
 	private Location location;
-	private Map<String,Object> weather;
+	private Weather weather;
 	
 	public String toString() {
 		
@@ -16,7 +16,14 @@ public class TodaysWeather {
 				+this.location.getLatitude()+", "
 				+this.location.getLongitude()+"\n";
 		
-		String weather = this.weather.toString();
+		String weather = this.weather.getDescription()+", "
+				+this.weather.getPrecipitation()+", "
+				+this.weather.getTemperature()+", "
+				+this.weather.getHumidity()+", "
+				+this.weather.getPressure()+", "
+				+this.weather.getCloudcover()+", "
+				+this.weather.getWind()+", "
+				+this.weather.getImage();
 		
 		return location + weather;
 	}

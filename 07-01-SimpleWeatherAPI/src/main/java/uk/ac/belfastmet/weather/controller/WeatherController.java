@@ -21,14 +21,17 @@ public class WeatherController {
 		return "home";
 	}
 	@GetMapping("/weather/{location}")
-		public String belfast(@PathVariable("location") String location,Model model) {
+		public String weather(@PathVariable("location") String location,Model model) {
 			String belfastWeatherUrl=
-					"http://www.codingfury.net/training/weathersample/weather.php?location=belfast";
+					"http://www.codingfury.net/training/weathersample/weather.php?location="+location;
 			RestTemplate restTemplate = new RestTemplate();
 			TodaysWeather todaysWeather=restTemplate.getForObject(belfastWeatherUrl, TodaysWeather.class);
 			
 			Logger logger= LoggerFactory.getLogger(TodaysWeather.class);
-			logger.info(todaysWeather.toString());
+			logger.info(todaysWeather.getLocation().toString());
+			logger.info(todaysWeather.getWeather().toString());
+			logger.info(todaysWeather.getWeather().getWind().toString());
+			model.addAttribute("pageTitle","Weather");
 			model.addAttribute("todaysWeather",todaysWeather);
 			return "weather";
 		}
