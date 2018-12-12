@@ -37,27 +37,22 @@
 		<!-- <p><a href="#" th:href="@{/add}">Add Dwarf</a></p> -->
 			<table class="table table-striped">
 				<thead>
-					<th>City</th>
-					<th>Weather</th>
-					<th>Temprature</th>
+					<th>Title</th>
+					<th>Start</th>
+					<th>End</th>
+					<th>Venue</th>
+					<th>Cost</th>
 					<th>Image</th>
 					<!-- <th>CRUD</th> -->
 				</thead>
 				<tbody>
 				<tr th:each="event: ${events}">	
-						<td th:text = "${event.identifier}">Identifier</td>
-						<td th:text = "${event.url}">URL</td>
 						<td th:text = "${event.title}">Title</td>
 						<td th:text = "${event.startDate}">Start Date</td>
 						<td th:text = "${event.endDate}">End Date</td>
-						<td th:text = "${event.time}">Time</td>
 						<td th:text = "${event.venue}">Venue</td>
-						<td th:text = "${event.venueUrl}">VenueUrl</td>
-						<td ><img src="" th:src = "${event.image}"/></td>
-						<td th:text = "${event.audience}">Audience</td>
-						<td th:text = "${event.theme}">theme</td>
 						<td th:text = "${event.cost}">Cost</td>
-						<td th:text = "${event.content}">Content</td>
+						<td ><img src="" th:src = "${event.image}"/></td>
 
 					</tr>
 				</tbody>

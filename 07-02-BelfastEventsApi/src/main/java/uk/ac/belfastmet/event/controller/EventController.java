@@ -30,11 +30,12 @@ public class EventController {
 		RestTemplate restTemplate = new RestTemplate();
 		AllEvents belfastEvents=restTemplate.getForObject(belfastEventUrl, AllEvents.class);
 		
+		
 		Logger logger= LoggerFactory.getLogger(AllEvents.class);
-		logger.info(belfastEvents.toString());
+		logger.info(belfastEvents.toString()); 
 
 		model.addAttribute("pageTitle","Belfast Events");
-		model.addAttribute("events",belfastEvents);
+		model.addAttribute("events",belfastEvents.getAllEvents());
 		return "events";
 }
 }

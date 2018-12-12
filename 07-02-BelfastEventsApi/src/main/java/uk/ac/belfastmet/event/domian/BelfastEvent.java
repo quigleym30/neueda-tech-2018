@@ -1,5 +1,9 @@
 package uk.ac.belfastmet.event.domian;
 
+
+
+import java.util.Date;
+
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import lombok.Data;
@@ -8,13 +12,13 @@ import lombok.Data;
 public class BelfastEvent {
 
 	
-	private Integer identifier;
+	private String identifier;
 	private String url;
 	private String title;
 	@JsonFormat(pattern="yyy-MM-dd HH:mm:ss")
-	private String startDate;
+	private Date startDate;
 	@JsonFormat(pattern="yyy-MM-dd HH:mm:ss")
-	private String endDate;
+	private Date endDate;
 	private String time;
 	private String venue;
 	private String venueUrl;
@@ -24,7 +28,7 @@ public class BelfastEvent {
 	private String cost;
 	private String content;
 	
-	public String toString() {
+	/*public String toString() {
 	
 		String event=this.getIdentifier()+", "
 				+this.getUrl()+", "
@@ -41,5 +45,5 @@ public class BelfastEvent {
 				+this.getContent();	
 	
 		return event;
-	}
+	}*/
 }
