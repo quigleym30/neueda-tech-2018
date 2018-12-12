@@ -40,6 +40,7 @@
 					<th>City</th>
 					<th>Weather</th>
 					<th>Temprature</th>
+					<th>Image</th>
 					<!-- <th>CRUD</th> -->
 				</thead>
 				<tbody>
@@ -47,6 +48,7 @@
 						<td th:text = "${todaysWeather.location.name}">City Name</td>
 						<td th:text = "${todaysWeather.weather.description}">Weather Description</td>
 						<td th:text = "${todaysWeather.weather.temperature}">Temperature</td>
+						<td ><img src="" th:src = "${todaysWeather.weather.image}"/></td>
 						<!-- <td><a href="#" th:href="@{/view/} + ${dwarf.dwarfId}">View</a>
 						<br><a href="#" th:href="@{/edit/} + ${dwarf.dwarfId}">Edit</a>
 						<br><a href="#" th:href="@{/delete/} + ${dwarf.dwarfId}">Delete</a></td> -->
