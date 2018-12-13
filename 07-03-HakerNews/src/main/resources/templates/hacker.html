@@ -37,13 +37,25 @@
 		<!-- <p><a href="#" th:href="@{/add}">Add Dwarf</a></p> -->
 			<table class="table table-striped">
 				<thead>
-					<th>Top Stories Link</th>
+					<th>Title</th>
+					<th>By</th>
+					<th>Descendants</th>
+					<th>Link</th>
+					<th>Score</th>
+					<th>Time</th>
+					<th>Type</th>
 
 					<!-- <th>CRUD</th> -->
 				</thead>
 				<tbody>
 				<tr th:each="hacker: ${hackers}">	
-						<td><a th:href="@{https://news.ycombinator.com/item?id=}+${hacker}" style="display:block;">link</a></td>
+						<td th:text = "${hacker.title}">Title</td>
+					<td th:text = "${hacker.by}">Title</td>	
+					<td th:text = "${hacker.descendants}">Title</td>	
+					<td><a th:href="@{https://news.ycombinator.com/item?id=}+${hacker.id}" style="display:block;">link</a></td>
+					<td th:text = "${hacker.score}">Title</td>
+					<td th:text = "${hacker.time}">Title</td>
+					<td th:text = "${hacker.type}">Title</td>
 				
 					</tr>
 				</tbody>

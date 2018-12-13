@@ -6756,3 +6756,73 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2018-12-13 13:32:17,657 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2018-12-13 13:32:17,662 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-12-13 13:32:17,663 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-03-HakerNews\src\test\resources
+2018-12-13 13:42:45,609 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 13:42:45,609 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-13 13:42:45,610 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-13 13:42:45,617 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 13:42:45,617 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-03-HakerNews\src\test\resources
+2018-12-13 13:43:11,861 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 13:43:11,866 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-13 13:43:11,871 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-12-13 13:43:11,876 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 13:43:11,876 [Worker-49: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-03-HakerNews\src\test\resources
+2018-12-13 13:44:01,107 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 13:44:01,111 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-13 13:44:01,116 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-12-13 13:44:01,121 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 13:44:01,121 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-03-HakerNews\src\test\resources
+2018-12-13 13:44:11,701 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 13:44:11,706 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-13 13:44:11,710 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-12-13 13:44:11,715 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 13:44:11,715 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-03-HakerNews\src\test\resources
+2018-12-13 13:46:41,460 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 13:46:41,473 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-13 13:46:41,479 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-12-13 13:46:41,485 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 13:46:41,486 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-03-HakerNews\src\test\resources
+2018-12-13 13:47:23,597 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 13:47:23,598 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-13 13:47:23,599 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-13 13:47:23,605 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 13:47:23,606 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-03-HakerNews\src\test\resources
+2018-12-13 13:49:00,317 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 13:49:00,322 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-13 13:49:00,327 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-12-13 13:49:00,334 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 13:49:00,334 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-03-HakerNews\src\test\resources
+2018-12-13 14:26:53,456 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 14:26:53,461 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-13 14:26:53,467 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-12-13 14:26:53,471 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 14:26:53,472 [Worker-51: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-03-HakerNews\src\test\resources
+2018-12-13 14:28:04,491 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 14:28:04,491 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-13 14:28:04,492 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-13 14:28:04,498 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 14:28:04,499 [Worker-43: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-03-HakerNews\src\test\resources
+2018-12-13 14:31:58,777 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 14:31:58,782 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-13 14:31:58,788 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-12-13 14:31:58,793 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 14:31:58,793 [Worker-44: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-03-HakerNews\src\test\resources
+2018-12-13 14:36:49,816 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 14:36:49,824 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-13 14:36:49,829 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-12-13 14:36:49,834 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 14:36:49,834 [Worker-53: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-03-HakerNews\src\test\resources
+2018-12-13 14:37:55,503 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 14:37:55,504 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-13 14:37:55,504 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-13 14:37:55,511 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 14:37:55,511 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-03-HakerNews\src\test\resources
+2018-12-13 14:39:09,247 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 14:39:09,252 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-13 14:39:09,257 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 9 resources
+2018-12-13 14:39:09,261 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 14:39:09,262 [Worker-52: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-03-HakerNews\src\test\resources
+2018-12-13 14:41:28,918 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 14:41:28,919 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-13 14:41:28,919 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-12-13 14:41:28,926 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 14:41:28,926 [Worker-54: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\qui18161669\Documents\neueda-git\neueda-tech-2018\07-03-HakerNews\src\test\resources

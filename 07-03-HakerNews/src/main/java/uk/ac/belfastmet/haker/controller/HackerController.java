@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.client.RestTemplate;
 
@@ -12,8 +13,15 @@ import uk.ac.belfastmet.haker.domain.TopStories;
 
 @Controller
 @RequestMapping()
-public class HakerController {
+public class HackerController {
 
+	ArrayList<TopStories> stories;
+	
+	public HackerController(ArrayList<TopStories> stories) {
+		super();
+		this.stories = stories;
+	}
+	
 	@GetMapping
 	public String home(Model model) {
 		model.addAttribute("pageTitle","Home");
@@ -26,19 +34,30 @@ public class HakerController {
 		String hackerEventUrl=
 				"https://hacker-news.firebaseio.com/v0/topstories.json";
 		RestTemplate restTemplate = new RestTemplate();
-		ArrayList<Integer> topSrories=restTemplate.getForObject(hackerEventUrl, ArrayList.class);
-		System.out.println(topSrories.get(1));
-		model.addAttribute("hackers",topSrories);
+		if(this.stories.size()==0) {
+			ArrayList<Integer> topStroies=restTemplate.getForObject(hackerEventUrl, ArrayList.class);
+			for (int i=0;i<topStroies.size();i++)
+			{
+				String eventUrl=
+						"https://hacker-news.firebaseio.com/v0/item/"+topStroies.get(i)+".json";
+				TopStories story=restTemplate.getForObject(eventUrl, TopStories.class);
+				this.stories.add(story);
+			}
+		}
+		
+		
+		//System.out.println(topStroies.get(1));
+		model.addAttribute("hackers",this.stories);
 		
 		return "hacker.html";
 	}
 	
-	@GetMapping("/single")
-	public String single(Model model)
+	@GetMapping("/single/{number}")
+	public String single(@PathVariable("number") String number,Model model)
 	{
 		model.addAttribute("pageTitle","Haker News Article");
 		String hackerEventUrl=
-				"https://hacker-news.firebaseio.com/v0/item/15772065.json";
+				"https://hacker-news.firebaseio.com/v0/item/"+number+".json";
 		RestTemplate restTemplate = new RestTemplate();
 		TopStories story=restTemplate.getForObject(hackerEventUrl, TopStories.class);
 		
