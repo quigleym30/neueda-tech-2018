@@ -7,5 +7,14 @@ import lombok.Data;
 @Data
 public class TopStories {
 
-	ArrayList<Integer>topStroy=new ArrayList<Integer>();
+	private String by;
+	private Integer descendants; 
+	private Integer id; 
+	private ArrayList<Integer>kids;
+	private Integer score; 
+	private Integer time; 
+	private String title;
+	private String type;
+	private String url;
+
 }

@@ -33,4 +33,18 @@ public class HakerController {
 		return "hacker.html";
 	}
 	
+	@GetMapping("/single")
+	public String single(Model model)
+	{
+		model.addAttribute("pageTitle","Haker News Article");
+		String hackerEventUrl=
+				"https://hacker-news.firebaseio.com/v0/item/15772065.json";
+		RestTemplate restTemplate = new RestTemplate();
+		TopStories story=restTemplate.getForObject(hackerEventUrl, TopStories.class);
+		
+		model.addAttribute("hacker",story);
+		
+		return "single.html";
+	}
+	
 }
